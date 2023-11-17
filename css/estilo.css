@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-style: italic;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: black;
+    font-style: italic;
+}
+
+h3{
+    font-style: oblique;
+    color: black;
+}
+
+h5{
+    font-style: italic;
+    color: gray;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+   margin-left: 5px;
+   margin-top: 5px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilos de la pagina Pop*/
+
+#pop-titulo1{
+    color: rgb(182, 3, 3);
+}
+
+#pop-titulo2{
+    color: rgb(3, 182, 128);
+}
+
+#pop-titulo3{
+    color: rgb(3, 75, 182);
+}
+
+#pop-titulo4{
+    color: rgb(42, 112, 91);
+}
+
+
+/*Estilos de la pagina Rock*/ 
+
+#rock-img{
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
